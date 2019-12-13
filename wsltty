@@ -1,0 +1,10 @@
+# To use common configuration in %APPDATA%\mintty, simply remove this file
+# Location: USERFOLDER\AppData\Roaming\wsltty
+
+ThemeFile=gruvbox-new
+Font=Menlo
+FontHeight=11
+Columns=100
+Rows=35
+Term=xterm-256color
+BellType=0

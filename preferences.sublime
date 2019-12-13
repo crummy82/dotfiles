@@ -1,0 +1,28 @@
+{
+	"color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
+	"font_face": "Fira Code Light",
+	"font_size": 11,
+	"gruvbox_accent_purple": true,
+	"gruvbox_command_palette_compact": true,
+	"gruvbox_folder_icons_plus_minus": true,
+	"gruvbox_sidebar_cozy": true,
+	"gruvbox_sidebar_font_size_12": true,
+	"gruvbox_statusbar_button_s": true,
+	"gruvbox_statusbar_xs": true,
+	"gruvbox_tabs_xs": true,
+	"ignored_packages":
+	[
+		"Python",
+		"Vintage"
+	],
+	"indent_to_bracket": true,
+	"line_padding_bottom": 1,
+	"match_brackets": false,
+	"match_brackets_braces": false,
+	"match_brackets_content": false,
+	"match_brackets_square": false,
+	"match_tags": false,
+	"smart_indent": true,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true
+}

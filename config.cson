@@ -1,0 +1,38 @@
+// Atom config
+
+"*":
+  "bracket-colorizer":
+    alternate_different: true
+  core:
+    audioBeep: false
+    disabledPackages: [
+      "deprecation-cop"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+    uriHandlerRegistration: "always"
+    useProxySettingsWhenCallingApm: false
+  editor:
+    fontFamily: "Fira Code Light, Menlo, Consolas, DejaVu Sans Mono, monospace"
+    lineHeight: 1.3
+    scrollPastEnd: true
+    showIndentGuide: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "52589004-f585-4b45-b60c-d9f7538a4239"
+  "linter-flake8":
+    maxLineLength: 100
+  "linter-ui-default":
+    panelHeight: 141
+    showPanel: true
+  "platformio-ide-terminal":
+    core: {}
+    style:
+      theme: "predawn"
+  "python-autopep8": {}
+  welcome:
+    showOnStartup: false

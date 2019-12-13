@@ -1,0 +1,52 @@
+// Settings file for VSCode
+
+{
+    "bracket-pair-colorizer-2.showBracketsInGutter": true,
+    "bracket-pair-colorizer-2.colors": [
+        "Orange",
+        "PaleVioletRed",
+        "PeachPuff"
+    ],
+    "editor.fontFamily": "'Fira Code Light', Menlo",
+    "editor.fontSize": 15,
+    "editor.fontLigatures": false,
+    "extensions.showRecommendationsOnlyOnDemand": true,
+    "[python]": {
+        "editor.rulers": [80]
+    },
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "workbench.sideBar.location": "left",
+    "extensions.ignoreRecommendations": true,
+    "workbench.colorTheme": "One Monokai",
+    "workbench.iconTheme": "vscode-simpler-icons",
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": true,
+    "editor.renderLineHighlight": "gutter",
+    "editor.occurrencesHighlight": false,
+    "workbench.editor.highlightModifiedTabs": true,
+    "terminal.integrated.shell.windows": "C:\\windows\\System32\\wsl.exe",
+    "editor.renderWhitespace": "selection",
+    "editor.minimap.enabled": false,
+    "editor.suggestSelection": "first",
+    "editor.cursorBlinking": "phase",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "sync.gist": "51d56932acf4f764a90638bd82204209",
+    "sync.forceUpload": false,
+    "sync.removeExtensions": false,
+    "sync.autoUpload": false,
+    "sync.autoDownload": false,
+    "http.proxyStrictSSL": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    }
+    
+    // Currently unused settings
+    //"python.jediEnabled": false
+    //"vim.cursorStylePerMode.insert": "line",
+    //"vim.cursorStylePerMode.normal": "block",
+    //"vim.cursorStylePerMode.visual": "block-outline",
+    //"vim.cursorStylePerMode.visualblock": "block-outline",
+    //"vim.cursorStylePerMode.visualline": "block-outline",
+}

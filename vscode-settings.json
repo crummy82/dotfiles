@@ -1,5 +1,3 @@
-// Settings file for VSCode
-
 {
     "bracket-pair-colorizer-2.showBracketsInGutter": true,
     "bracket-pair-colorizer-2.colors": [
@@ -7,8 +5,8 @@
         "PaleVioletRed",
         "PeachPuff"
     ],
-    "editor.fontFamily": "'Fira Code Light', Menlo",
-    "editor.fontSize": 15,
+    "editor.fontFamily": "'Fira Code', Menlo",
+    "editor.fontSize": 14,
     "editor.fontLigatures": false,
     "extensions.showRecommendationsOnlyOnDemand": true,
     "[python]": {
@@ -18,16 +16,16 @@
     "telemetry.enableTelemetry": false,
     "workbench.sideBar.location": "left",
     "extensions.ignoreRecommendations": true,
-    "workbench.colorTheme": "One Monokai",
+    "workbench.colorTheme": "Tomorrow Night",
     "workbench.iconTheme": "vscode-simpler-icons",
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "editor.renderLineHighlight": "gutter",
     "editor.occurrencesHighlight": false,
     "workbench.editor.highlightModifiedTabs": true,
-    "terminal.integrated.shell.windows": "C:\\windows\\System32\\wsl.exe",
+    "terminal.integrated.shell.windows": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "editor.renderWhitespace": "selection",
-    "editor.minimap.enabled": false,
+    "editor.minimap.enabled": true,
     "editor.suggestSelection": "first",
     "editor.cursorBlinking": "phase",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -40,8 +38,31 @@
     "http.proxyStrictSSL": false,
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
-    }
+    },
     
+    "workbench.colorCustomizations": {
+        "terminal.background":"#1D1F21",
+        "terminal.foreground":"#C5C8C6",
+        "terminalCursor.background":"#C5C8C6",
+        "terminalCursor.foreground":"#C5C8C6",
+        "terminal.ansiBlack":"#1D1F21",
+        "terminal.ansiBlue":"#16293a",
+        "terminal.ansiBrightBlack":"#969896",
+        "terminal.ansiBrightBlue":"#81A2BE",
+        "terminal.ansiBrightCyan":"#8ABEB7",
+        "terminal.ansiBrightGreen":"#B5BD68",
+        "terminal.ansiBrightMagenta":"#B294BB",
+        "terminal.ansiBrightRed":"#CC6666",
+        "terminal.ansiBrightWhite":"#FFFFFF",
+        "terminal.ansiBrightYellow":"#F0C674",
+        "terminal.ansiCyan":"#89abdf",
+        "terminal.ansiGreen":"#a0a768",
+        "terminal.ansiMagenta":"#B294BB",
+        "terminal.ansiRed":"#CC6666",
+        "terminal.ansiWhite":"#C5C8C6",
+        "terminal.ansiYellow":"#F0C674"
+      }
+
     // Currently unused settings
     //"python.jediEnabled": false
     //"vim.cursorStylePerMode.insert": "line",

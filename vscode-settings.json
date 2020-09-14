@@ -1,73 +1,57 @@
 {
-    "bracket-pair-colorizer-2.showBracketsInGutter": true,
-    "bracket-pair-colorizer-2.colors": [
-        "Orange",
-        "PaleVioletRed",
-        "PeachPuff"
-    ],
-    "editor.fontFamily": "'Fira Code', Menlo",
-    "editor.fontSize": 14,
-    "editor.fontLigatures": false,
-    "extensions.showRecommendationsOnlyOnDemand": true,
-    "[python]": {
-        "editor.rulers": [80]
-    },
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
-    "workbench.sideBar.location": "left",
-    "extensions.ignoreRecommendations": true,
-    "workbench.colorTheme": "Tomorrow Night",
-    "workbench.iconTheme": "vscode-simpler-icons",
-    "workbench.settings.editor": "json",
-    "workbench.settings.openDefaultSettings": true,
-    "editor.renderLineHighlight": "gutter",
-    "editor.occurrencesHighlight": false,
-    "workbench.editor.highlightModifiedTabs": true,
-    "terminal.integrated.shell.windows": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "editor.renderWhitespace": "selection",
-    "editor.minimap.enabled": true,
-    "editor.suggestSelection": "first",
-    "editor.cursorBlinking": "phase",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "python.jediEnabled": false,
-    "sync.gist": "51d56932acf4f764a90638bd82204209",
-    "sync.forceUpload": false,
-    "sync.removeExtensions": false,
-    "sync.autoUpload": false,
-    "sync.autoDownload": false,
-    "http.proxyStrictSSL": false,
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    
-    "workbench.colorCustomizations": {
-        "terminal.background":"#1D1F21",
-        "terminal.foreground":"#C5C8C6",
-        "terminalCursor.background":"#C5C8C6",
-        "terminalCursor.foreground":"#C5C8C6",
-        "terminal.ansiBlack":"#1D1F21",
-        "terminal.ansiBlue":"#16293a",
-        "terminal.ansiBrightBlack":"#969896",
-        "terminal.ansiBrightBlue":"#81A2BE",
-        "terminal.ansiBrightCyan":"#8ABEB7",
-        "terminal.ansiBrightGreen":"#B5BD68",
-        "terminal.ansiBrightMagenta":"#B294BB",
-        "terminal.ansiBrightRed":"#CC6666",
-        "terminal.ansiBrightWhite":"#FFFFFF",
-        "terminal.ansiBrightYellow":"#F0C674",
-        "terminal.ansiCyan":"#89abdf",
-        "terminal.ansiGreen":"#a0a768",
-        "terminal.ansiMagenta":"#B294BB",
-        "terminal.ansiRed":"#CC6666",
-        "terminal.ansiWhite":"#C5C8C6",
-        "terminal.ansiYellow":"#F0C674"
-      }
+  "bracket-pair-colorizer-2.showBracketsInGutter": true,
+  "bracket-pair-colorizer-2.colors": ["Orange", "PaleVioletRed", "PeachPuff"],
+  "editor.fontFamily": "Hack, Fira Code",
+  "editor.fontLigatures": false,
+  "extensions.showRecommendationsOnlyOnDemand": true,
+  "[python]": {
+    "editor.rulers": [100]
+  },
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "workbench.sideBar.location": "left",
+  "extensions.ignoreRecommendations": true,
+  //"workbench.settings.editor": "json",
+  //"workbench.settings.openDefaultSettings": true,
+  "editor.renderLineHighlight": "gutter",
+  "editor.occurrencesHighlight": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.mouseWheelZoom": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "editor.renderWhitespace": "selection",
+  "editor.minimap.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.cursorBlinking": "phase",
+  "editor.acceptSuggestionOnEnter": "off",
+  "explorer.sortOrder": "type",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "http.proxyStrictSSL": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "vscode-icons",
+  "python.languageServer": "Microsoft",
+  "python.pythonPath": "/usr/bin/python3",
+  "vsicons.dontShowNewVersionMessage": true,
 
-    // Currently unused settings
-    //"python.jediEnabled": false
-    //"vim.cursorStylePerMode.insert": "line",
-    //"vim.cursorStylePerMode.normal": "block",
-    //"vim.cursorStylePerMode.visual": "block-outline",
-    //"vim.cursorStylePerMode.visualblock": "block-outline",
-    //"vim.cursorStylePerMode.visualline": "block-outline",
+  // Files
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/__pycache__": true,
+    "**/**/*.pyc": true
+  },
+  "workbench.colorTheme": "Plastic"
+
+  // Currently unused settings
+  //"python.jediEnabled": false
+  //"vim.cursorStylePerMode.insert": "line",
+  //"vim.cursorStylePerMode.normal": "block",
+  //"vim.cursorStylePerMode.visual": "block-outline",
+  //"vim.cursorStylePerMode.visualblock": "block-outline",
+  //"vim.cursorStylePerMode.visualline": "block-outline",
 }

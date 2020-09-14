@@ -1,7 +1,7 @@
 {
 	"color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
-	"font_face": "Fira Code Light",
-	"font_size": 11,
+	"font_face": "Hack",
+	"font_size": 12,
 	"gruvbox_accent_purple": true,
 	"gruvbox_command_palette_compact": true,
 	"gruvbox_folder_icons_plus_minus": true,

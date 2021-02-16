@@ -3,7 +3,6 @@
   "bracket-pair-colorizer-2.colors": ["Orange", "PaleVioletRed", "PeachPuff"],
   "editor.fontFamily": "Hack, Fira Code",
   "editor.fontLigatures": false,
-  "extensions.showRecommendationsOnlyOnDemand": true,
   "[python]": {
     "editor.rulers": [100]
   },
@@ -11,8 +10,6 @@
   "telemetry.enableTelemetry": false,
   "workbench.sideBar.location": "left",
   "extensions.ignoreRecommendations": true,
-  //"workbench.settings.editor": "json",
-  //"workbench.settings.openDefaultSettings": true,
   "editor.renderLineHighlight": "gutter",
   "editor.occurrencesHighlight": false,
   "editor.formatOnPaste": true,
@@ -21,7 +18,7 @@
   "workbench.editor.highlightModifiedTabs": true,
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
   "editor.renderWhitespace": "selection",
-  "editor.minimap.enabled": true,
+  "editor.minimap.enabled": false,
   "editor.suggestSelection": "first",
   "editor.cursorBlinking": "phase",
   "editor.acceptSuggestionOnEnter": "off",
@@ -33,7 +30,7 @@
   },
   "workbench.startupEditor": "newUntitledFile",
   "workbench.iconTheme": "vscode-icons",
-  "python.languageServer": "Microsoft",
+  "python.languageServer": "Pylance",
   "python.pythonPath": "/usr/bin/python3",
   "vsicons.dontShowNewVersionMessage": true,
 
@@ -45,7 +42,14 @@
     "**/__pycache__": true,
     "**/**/*.pyc": true
   },
-  "workbench.colorTheme": "Plastic"
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#1b1b1b"
+  },
+  "python.showStartPage": false,
+  "settingsSync.ignoredSettings": [
+    "workbench.colorTheme"
+  ]
 
   // Currently unused settings
   //"python.jediEnabled": false
@@ -54,4 +58,6 @@
   //"vim.cursorStylePerMode.visual": "block-outline",
   //"vim.cursorStylePerMode.visualblock": "block-outline",
   //"vim.cursorStylePerMode.visualline": "block-outline",
+  //"workbench.settings.editor": "json",  // Always open settings in JSON editor
+  //"workbench.settings.openDefaultSettings": true,
 }

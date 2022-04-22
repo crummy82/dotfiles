@@ -1,39 +1,36 @@
 {
-  "bracket-pair-colorizer-2.showBracketsInGutter": true,
-  "bracket-pair-colorizer-2.colors": ["Orange", "PaleVioletRed", "PeachPuff"],
-  "editor.fontFamily": "Hack, Fira Code",
+  "editor.guides.bracketPairs": true,
+  "editor.fontFamily": "'Roboto Mono', 'Hack Nerd Font'",
   "editor.fontLigatures": false,
+  "editor.lineHeight": 1.3,
   "[python]": {
-    "editor.rulers": [100]
+    "editor.rulers": [
+      100
+    ]
   },
-  "telemetry.enableCrashReporter": false,
-  "telemetry.enableTelemetry": false,
+  "telemetry.telemetryLevel": "off",
   "workbench.sideBar.location": "left",
   "extensions.ignoreRecommendations": true,
+  "workbench.settings.editor": "json",
+  "workbench.settings.openDefaultSettings": true,
   "editor.renderLineHighlight": "gutter",
   "editor.occurrencesHighlight": false,
   "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
+  //"editor.formatOnSave": true,
   "editor.mouseWheelZoom": true,
   "workbench.editor.highlightModifiedTabs": true,
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
   "editor.renderWhitespace": "selection",
-  "editor.minimap.enabled": false,
   "editor.suggestSelection": "first",
   "editor.cursorBlinking": "phase",
   "editor.acceptSuggestionOnEnter": "off",
-  "explorer.sortOrder": "type",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "http.proxyStrictSSL": false,
+"explorer.sortOrder": "type",
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
   "workbench.startupEditor": "newUntitledFile",
   "workbench.iconTheme": "vscode-icons",
   "python.languageServer": "Pylance",
-  "python.pythonPath": "/usr/bin/python3",
   "vsicons.dontShowNewVersionMessage": true,
-
   // Files
   "files.insertFinalNewline": true,
   "files.exclude": {
@@ -42,22 +39,19 @@
     "**/__pycache__": true,
     "**/**/*.pyc": true
   },
-  "workbench.colorTheme": "Default Dark+",
-  "workbench.colorCustomizations": {
-    "statusBar.background": "#1b1b1b"
-  },
-  "python.showStartPage": false,
   "settingsSync.ignoredSettings": [
     "workbench.colorTheme"
-  ]
-
-  // Currently unused settings
-  //"python.jediEnabled": false
-  //"vim.cursorStylePerMode.insert": "line",
-  //"vim.cursorStylePerMode.normal": "block",
-  //"vim.cursorStylePerMode.visual": "block-outline",
-  //"vim.cursorStylePerMode.visualblock": "block-outline",
-  //"vim.cursorStylePerMode.visualline": "block-outline",
-  //"workbench.settings.editor": "json",  // Always open settings in JSON editor
-  //"workbench.settings.openDefaultSettings": true,
+  ],
+  "editor.fontSize": 14,
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "workbench.colorTheme": "Dracula",
+  "editor.parameterHints.enabled": false,
+  "editor.quickSuggestionsDelay": 2000,
+  "editor.minimap.enabled": false
 }

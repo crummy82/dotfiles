@@ -50,12 +50,7 @@
   "editor.quickSuggestionsDelay": 2000,
   "editor.minimap.enabled": false,
   "remote.SSH.remotePlatform": {
-    "192.168.8.27": "linux",
-    "192.168.8.23": "linux",
-    "armcloud.crummynet.net": "linux",
-    "docker-home.home": "linux",
-    "nas.home": "linux",
-    "docker-vm.home": "linux"
+    .....
   },
   "workbench.iconTheme": "catppuccin-macchiato",
   "vsicons.dontShowNewVersionMessage": true,

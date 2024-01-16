@@ -1,38 +1,42 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.zshhistfile
+HISTSIZE=10000
+SAVEHIST=20000
+setopt notify
+unsetopt beep
+bindkey -e
+# End of lines configured by zsh-newuser-install
+# The following lines were added by compinstall
+zstyle :compinstall filename '/home/brad/.zshrc'
 
-# Uncomment the following line to change how often to auto-update (in days).
-export UPDATE_ZSH_DAYS=7
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
 
-# Language setting
-export LANG=en_US.UTF-8
+# My Stuff
+alias vim='nvim'
+alias zshconfig='vim ~/.zshrc'
+alias python='/home/linuxbrew/.linuxbrew/bin/python3'
+alias py='/home/linuxbrew/.linuxbrew/bin/python3'
 
-# My aliases
-alias zshconfig="vim ~/.zshrc"
-alias c="clear"
-alias chrome='open -a "Google Chrome"'
-# Mac alias for finder
-# alias finder='open -a "Finder"'
+# Replace ls with exa
 alias ls='exa -laF --group-directories-first --color=always'
-alias l='ls -l'
+alias l='ls'
 alias ll='ls -l'
 alias la='ls -al'
 alias lla='ls -la'
 alias lt='ls --tree'
-alias python3='/usr/local/bin/python3'
 
-# Start neofetch on terminal start
-# neofetch
+# Colorize grep output (good for log files)
+alias grep='grep --color=auto'
 
-# PATH for python on Mac
-# export PATH="/Users/brad/Library/Python/3.9/lib/python/site-packages:$PATH"
+# Start tmux on launch
+if [ -z "$TMUX" ]
+then
+    tmux attach -t session1 || tmux new -s session1
+fi
 
-# Powerlevel10k theming
-source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# Load starship prompt config
+eval "$(starship init zsh)
